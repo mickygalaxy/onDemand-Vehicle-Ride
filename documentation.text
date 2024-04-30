@@ -1,0 +1,22 @@
+24 april 2024 - starting of a project.
+
+- Today i install all Dependencies(fronted,backend,database,other) which reqiued to make this project.
+
+List Of Dependencies which are using :-
+   "Fronted Dependencies" -                                                              "Command"
+       React: JavaScript library for building user interfaces.                            ✅npm create vite@latest  and    npx create-react-app project_name                    
+       React Router DOM: Routing library for React applications.                          ✅npm i react-router-dom
+       Axios: Promise-based HTTP client for making API requests.                          ✅npm i axios
+       Tailwind CSS: Utility-first CSS framework for styling.                             ✅npm install -D tailwindcss postcss autoprefixer and npx tailwindcss init -p
+       PostCSS and Autoprefixer (required for Tailwind CSS).                              ✅npm install -D tailwindcss postcss autoprefixer and npx tailwindcss init -p
+       Craco (optional, for Tailwind CSS integration with Create React App). 
+
+
+    "Backend Dependencies" -                                                                                "Command"
+       Express.js: Web framework for Node.js.                                                              ✅npm i express
+       Mongoose: MongoDB object modeling tool.                                                             ✅npm install mongoose
+       Body-parser: Middleware to parse incoming request bodies.                                           ✅npm i body-parser
+       Cors: Middleware for enabling Cross-Origin Resource Sharing (CORS).                                 ✅npm i cors
+       Dotenv: Module for loading environment variables from a .env file.                                  ✅npm install @dotenvx/dotenvx
+       Nodemon (optional, for development): Automatically restarts the server when files change.           ✅npm i nodemon
+
